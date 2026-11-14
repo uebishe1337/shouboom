@@ -1,0 +1,15 @@
+# Локальная конфигурация с секретами (токены DaData, пароль БД).
+# В репозиторий попадает только шаблон config.example.php.
+config.php
+
+# Кэш ответов DaData
+cache/*
+!cache/.gitkeep
+
+# Служебные и временные файлы
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
